@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Best Of Paris In 7 Days Tour",
+    "price": "$6000",
+    "img": "./1.jpg",
+    "text": "The JSON used here is an array of objects, so the relevant check would be to check if the state exists and consequently verify if it has a non-zero length as shown below.Incididunt laboris sit quis aute dolor labore dolor pariatur exercitation consectetur magna laboris. Aliqua duis in elit ex ad est voluptate irure exercitation. Culpa proident fugiat aliqua mollit excepteur amet mollit culpa. Cupidatat est quis ut deserunt consectetur eiusmod esse culpa magna laborum. Adipisicing culpa commodo quis amet elit sint mollit. Tempor in do non consequat commodo est."
+  },
+  {
+    "id": 2,
+    "title": "Best Of Paris In 2 Week",
+    "price": "$5800",
+    "img": "./2.jpg",
+    "text": "The GET call for your JSON resource is made when the component mounts on the DOM. However, since it is an asynchronous task your return statement is.Incididunt laboris sit quis aute dolor labore dolor pariatur exercitation consectetur magna laboris. Aliqua duis in elit ex ad est voluptate irure exercitation. Culpa proident fugiat aliqua mollit excepteur amet mollit culpa. Cupidatat est quis ut deserunt consectetur eiusmod esse culpa magna laborum. Adipisicing culpa commodo quis amet elit sint mollit. Tempor in do non consequat commodo est."
+  },
+  {
+    "id": 3,
+    "title": "Best Of Paris",
+    "price": "$3000",
+    "img": "./3.jpg",
+    "text": "Incididunt laboris sit quis aute dolor labore dolor pariatur exercitation consectetur magna laboris.mounts on the DOM. However, since it is an asynchronous task your return statement is.Adipisicing culpa commodo quis amet elit sint mollit. Tempor in do non consequat commodo est."
+  },
+  {
+    "id": 4,
+    "title": "Best Of Tehran",
+    "price": "$200",
+    "img": "./2.jpg",
+    "text": "You can also use a powerful third-party library called Axios to make GET calls to a local JSON file instead of fetch API. By loading data directly from a local JSON file you can save your server from tons of unnecessary calls in local development.Because you are updating the state after fetching the required data, a re-rendering of the component updates the DOM with JSON data stored inside the state. .Incididunt laboris sit quis aute dolor labore dolor pariatur exercitation consectetur magna laboris. Aliqua duis in elit ex ad est voluptate irure exercitation. Culpa proident fugiat aliqua mollit excepteur amet mollit culpa."
+  },
+  {
+    "id": 5,
+    "title": "Best Of London In 2 Days Tour",
+    "price": "$4350",
+    "img": "./1.jpg",
+    "text": "If your JSON returns an object, simply check your state to be not null at the time of outputting it, otherwise you might get an error.Incididunt laboris sit quis aute dolor labore dolor pariatur exercitation consectetur magna laboris. Aliqua duis in elit ex ad est voluptate irure exercitation. Culpa proident fugiat aliqua mollit excepteur amet mollit culpa. Cupidatat est quis ut deserunt consectetur eiusmod esse culpa magna laborum. Adipisicing culpa commodo quis amet elit sint mollit. Tempor in do non consequat commodo est."
+  }
+]
