@@ -1,0 +1,25 @@
+article {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2rem;
+  margin-bottom: 22px;
+}
+.headerQue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  border: 0;
+  outline: none;
+  background: darkorchid;
+  border-radius: 50%;
+  padding: 2px;
+  color: white;
+  font-weight: bold;
+}
+.btnIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+}

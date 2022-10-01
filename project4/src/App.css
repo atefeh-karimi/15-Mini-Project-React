@@ -1,0 +1,16 @@
+body {
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin-top: 3rem;
+  width: 600px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+}
+section {
+  margin-top: 18px;
+}
