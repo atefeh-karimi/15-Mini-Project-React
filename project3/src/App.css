@@ -1,0 +1,78 @@
+.heading {
+  text-align: center;
+  margin: 2rem auto;
+  color: black;
+  width: 250px;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  height: 6%;
+  position: absolute;
+  width: 80px;
+  background-color: #64c4e3;
+  bottom: 0;
+  left: 90px;
+}
+.cards__container {
+  width: 500px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card {
+  text-align: center;
+  border: unset !important;
+}
+.card__img-background {
+  background-color: #64c4e3;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.card__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  position: absolute;
+  left: -6px;
+  top: -10px;
+}
+.card__img-quoteIcon {
+  position: absolute;
+  color: white;
+  left: -8px;
+  background-color: #64c4e3;
+  border-radius: 50%;
+  padding: 9px 8px;
+  font-size: 30px;
+}
+
+.comment {
+  height: 100px;
+}
+.btn-container {
+  display: flex;
+  gap: 45px;
+}
+.angleIcon {
+  margin: 1rem 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+.angleIcon:hover {
+  color: #64c4e3;
+}
+.fa-angle-left {
+  margin-right: 50px;
+}
