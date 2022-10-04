@@ -1,0 +1,54 @@
+h1:after {
+  content: "";
+  height: 3px;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 80px;
+  background-color: rgb(255, 0, 166);
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.menuItem {
+  cursor: pointer;
+}
+.menuItem span {
+  color: rgb(0, 184, 98);
+}
+.menuItem p {
+  font-size: 14px;
+}
+.menuItem img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+@media (min-width: 760px) {
+  .menu {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 15px;
+  }
+  .menuItem {
+    flex: 40%;
+    max-width: 30%;
+  }
+}
+button {
+  border: 0;
+  background-color: white;
+  margin-right: 12px;
+}
+button:hover {
+  color: rgb(255, 0, 166);
+}
