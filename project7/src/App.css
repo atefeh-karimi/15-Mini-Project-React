@@ -1,0 +1,66 @@
+.wrapper {
+  position: relative;
+}
+
+.cards__container {
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+  border: unset !important;
+}
+.card__img-background {
+  background-color: #64c4e3;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.card__img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  position: absolute;
+  left: -6px;
+  top: -10px;
+}
+.card__img-quoteIcon {
+  position: absolute;
+  color: white;
+  left: -8px;
+  background-color: #64c4e3;
+  border-radius: 50%;
+  padding: 9px 8px;
+  font-size: 30px;
+}
+
+.comment {
+  height: 100px;
+}
+
+.prev-btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.next-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.angleIcon {
+  margin: 1rem 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+.angleIcon:hover {
+  color: #64c4e3;
+}
